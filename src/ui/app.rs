@@ -16,6 +16,7 @@ impl App {
 
         window.set_titlebar(Some(&header.container));
         window.set_title("GTKelculator");
+        window.set_default_size(800, 600);
         Window::set_default_icon_name("iconname");
         window.add(&content.container);
 
